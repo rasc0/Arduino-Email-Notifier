@@ -8,8 +8,8 @@ sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 
 
 imap_host = "imap.gmail.com"
-imap_username = "arduino.email.notifier@gmail.com"
-imap_password = "ilovearduino"
+imap_username = "email" # email and password omitted for obvious reasons
+imap_password = "password"
 
 imap = imaplib.IMAP4_SSL(imap_host)
 
